@@ -1,0 +1,59 @@
+# Publish the gallery to GitHub Pages.
+#
+# Optional: the images are already reachable at their raw URLs, so this only
+# adds a browsable index. It runs on any change that would alter the gallery,
+# and can also be started by hand from the Actions tab.
+#
+# Requires Pages to be enabled with "Source: GitHub Actions" under the
+# repository settings. It authenticates with the workflow's own short-lived
+# OIDC token, so there is still nothing to store in repository secrets.
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "previews/png/**"
+      - "previews.json"
+      - "previews.lock.json"
+      - "src/gspg/gallery.py"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Assemble the gallery
+        run: |
+          PYTHONPATH=src python -m gspg gallery --site site \
+            --raw-base "https://raw.githubusercontent.com/${{ github.repository }}/main/previews/png/"
+
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

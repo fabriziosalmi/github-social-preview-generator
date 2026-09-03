@@ -1,0 +1,11 @@
+# The package has no runtime dependencies, so the only thing to keep current is
+# the set of actions in .github/workflows — which are pinned to commit SHAs and
+# would otherwise silently rot.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci"

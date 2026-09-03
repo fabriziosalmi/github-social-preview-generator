@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+# Glyph packs are generated: keep them out of diffs and language stats, but
+# still let git store them as the plain text they are.
+src/gspg/assets/fonts/*.glyphs.json linguist-generated=true -diff
+previews.lock.json          linguist-generated=true -diff
+
+# Generated artwork.
+previews/svg/*.svg linguist-generated=true -diff
+previews/png/*.png binary linguist-generated=true
+
+*.png binary
+*.ttf binary

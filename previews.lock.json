@@ -1,0 +1,835 @@
+{
+  "epoch": 6,
+  "generator": "gspg 1.0.0",
+  "previews": {
+    "fabriziosalmi/DevGPT": {
+      "accent": "#9c3c93",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:31476430ab34ae8c786c683f5ec9706c76f1bb3085d264fb928f6b7643bcca1a",
+      "pattern": "strata",
+      "png": "sha256:d625657798f96d46a47a391e430daa2ac194bb7927afb7ddb16cbb985f996bfa",
+      "svg": "sha256:7df5d1b8771b4ecd162ea287512661f05ffb1c8dab58437e17be7483ee1566fc"
+    },
+    "fabriziosalmi/UglyFeed": {
+      "accent": "#006bba",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:851438ca849f5a137c4a481ea7118e174cca8caecc6caccc9a858ba03f3579b9",
+      "pattern": "strata",
+      "png": "sha256:ceb93f5142074e20be2e820c894b025bc7513a521e61a5cb2df672ac0d2b4098",
+      "svg": "sha256:866f5c84eec124775e42ebf708550f1848725d033f19929528d1bddff4616333"
+    },
+    "fabriziosalmi/You-Know-What-AI-Mean": {
+      "accent": "#557600",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:e5dae575fd56806fb5c15cd66055da4f47a7ce1bfcdba43027281550e96e0a26",
+      "pattern": "strata",
+      "png": "sha256:a459f18e13b08598018ee5b6514a6233042dd446754be26130314b3c30f57c95",
+      "svg": "sha256:63013f8896b053a251e301007065f35f4a799cd8ae35a20b2fbdae69c523dfdf"
+    },
+    "fabriziosalmi/agssh": {
+      "accent": "#007e42",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:fae7476bc7932eb30f14946bf5284b380b47cf12efc14ffbe0519dcd8b2e0d55",
+      "pattern": "strata",
+      "png": "sha256:b74e77122de32dd8667ca96923be2d526c653a6aa5d832e551d6791d87da877f",
+      "svg": "sha256:5faf50a89a4af85637793f767ac279386792d56cf562869330df6b241359645e"
+    },
+    "fabriziosalmi/ai-dependency-guard": {
+      "accent": "#b23252",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:211fe06eef658809bcd99f7b628190af1dd3ded252d55002135d46a3b23d8861",
+      "pattern": "strata",
+      "png": "sha256:d65a00ce0286c7b5b7293c71710f6f32c86411a758c246a31a2b528b5ac7a441",
+      "svg": "sha256:610fc9483fc91138f53c7f2b64770d9f2eab74cc31e307a97fdd49b4f34db11e"
+    },
+    "fabriziosalmi/ai-hallucination-research": {
+      "accent": "#b33252",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:0a96401ba0cbb570143686483a5d6ef07e8b7df9014b0fa639569ced0917cf9d",
+      "pattern": "strata",
+      "png": "sha256:1717c558b32374f321ff217896bf47b7d142de1764e15e9c121df1d07c76938f",
+      "svg": "sha256:6e56559191a7ff63a1c3af520c52024a567420f0c77c52296c3441772d6a7d2b"
+    },
+    "fabriziosalmi/ai-security": {
+      "accent": "#00768b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:f54e51c1ab2b833070b178bfabcaa89470b241b93b5d6c26d4a4832517b3c784",
+      "pattern": "strata",
+      "png": "sha256:8a467ec51008d89896ddb2a6189e6328896fbc02909dd6fdb95f0a5f5742e663",
+      "svg": "sha256:8c32181ab486680697d0d4dbb48e4b2b38afa1c1dd06e1967b144c2ab0f37888"
+    },
+    "fabriziosalmi/aidlp": {
+      "accent": "#9b5400",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1b7173d5fafe45f1a7d8719e44100f031b8df298a2ca842c2ef42981f76af297",
+      "pattern": "strata",
+      "png": "sha256:f87f0ff45ab69e8053b5d9cebd94c3d220ac8af7cc67bae3ee955c7ff25762a3",
+      "svg": "sha256:3fa4808d2fdb961856098c90af04dc59556a779aa8177d3bf3553a4138deecee"
+    },
+    "fabriziosalmi/aimp": {
+      "accent": "#007b67",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d8926753443f8c00828d93c1bebb7f3f2b57b831100609a919b658130e0e1cae",
+      "pattern": "strata",
+      "png": "sha256:cec17774397d201e7f19dc0d6da0332d40f2b638870978d42a73bba2d16a8eb7",
+      "svg": "sha256:d1918082d01640c2fa7ad44ffae526a7715f240c39fc10d6519043d08d942370"
+    },
+    "fabriziosalmi/asn-api": {
+      "accent": "#417a00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:bf7cad42a04b94523dcbd6d5bf8897196592bc53c033a14cd475778ff033a323",
+      "pattern": "strata",
+      "png": "sha256:01ffff20d984cdcc2804e960cadc5be842f7a35914cc04e8090c95f4db216b6a",
+      "svg": "sha256:76897e1db4e421557a8f76f4d9be36ce84654d132eaa99d9561ac6ad21a4e846"
+    },
+    "fabriziosalmi/audiogen": {
+      "accent": "#915c00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:481317c8eb0466d9eaef1b84bcdd69c523d661c9bd9984319a5e42f13e73acf4",
+      "pattern": "strata",
+      "png": "sha256:43f2c1c00f1499005802e9011d5ef1001253579047cd20f554128308a1070680",
+      "svg": "sha256:51cf5bbd2197ad6489a772a017301c9f405d03c378d0305e954bc14476f14218"
+    },
+    "fabriziosalmi/audiolibri": {
+      "accent": "#007a6e",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1fba0dc367c83a061cf54d854793e556c65ec5ffcf3da4cdf0478d29221dd4b6",
+      "pattern": "strata",
+      "png": "sha256:2b987feea89858830a8ce46c3a38957b37931335d101c6b7a7e61cf0a2b66114",
+      "svg": "sha256:09b559b2d64a2e2722cb97ade83c65652859ca31565fd0fef3c98d30341aa0ef"
+    },
+    "fabriziosalmi/awesomeness": {
+      "accent": "#8347b0",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:207b7da198ea95bfbd560bfea9efdd345629f65d3ddadc555f9d05d8ba2839cc",
+      "pattern": "strata",
+      "png": "sha256:4a42d0f3a68ab99e19a7aa3bd09e1bad0b842ce691b039e5c0eef89a86632c34",
+      "svg": "sha256:81b29da85bfc13c3d2d39ef22d2df21f4fdf7b5945d26073dc9cfd06e0cd9c8b"
+    },
+    "fabriziosalmi/b2v": {
+      "accent": "#5559c5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:458927346d90df8187ae8f7a10addb65afc7c92f017b0b9d684d6d92339979fd",
+      "pattern": "strata",
+      "png": "sha256:af540174f9e4b165a4f196b4d950ad698696652059020378a903c9f569c87857",
+      "svg": "sha256:bb3c3322c0d1bf3aaa70cb24a4c2b009049fae0f9e265aa3dc374d26d214825b"
+    },
+    "fabriziosalmi/blacklists": {
+      "accent": "#4b5cc6",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d7cffba665e168242b717bf817d029810babd270e572896d879cc1609102f534",
+      "pattern": "strata",
+      "png": "sha256:552293d5ce4afdb2f845bffa82a94613302bac7079aefd77e840a8b019b58bbe",
+      "svg": "sha256:5ef3c3d0bdd1fa40476b8da78cf7c6069b86362d35569be8c89e9c4cd58b5ef7"
+    },
+    "fabriziosalmi/brandkit": {
+      "accent": "#6155c3",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:c865b3cf6d7ea5f744be23066e39efda5ed7f7e2c1641bff928fdd134f1c8a14",
+      "pattern": "strata",
+      "png": "sha256:ea92caf624596b336331be9b16cef54db14d2855761642df1ef0a500e8526ff9",
+      "svg": "sha256:393ba5f479219c6d29efb0996887e56f19b853808184ed91ad61e1c25b5e322e"
+    },
+    "fabriziosalmi/brutal-coding-tool": {
+      "accent": "#9d5300",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:09a9a6e12573e34d3df52582820ab4170e3788641f50bc8abab44098f5f893f9",
+      "pattern": "strata",
+      "png": "sha256:56ac399d74bccc73915b2da8c713bf35a4338154616bfd8a3564632ba04f3e65",
+      "svg": "sha256:d3b0d7c8e8789a68b0ebaf37503fc847999efffc71f0ad17b0f298d1dce5e988"
+    },
+    "fabriziosalmi/caddy-feeds": {
+      "accent": "#5f7300",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:ae294e9c39476dceab8becff3fab69323f88efa788b2e009f4ba86001695fdf4",
+      "pattern": "strata",
+      "png": "sha256:4293a804f7ab80c728fe22e9ff617ad15b6b9f23855e11efb18e98147f46a024",
+      "svg": "sha256:8004542b5eb42ac04541f23ef78b3758c226b37db0a5a36a682ce3f51988484c"
+    },
+    "fabriziosalmi/caddy-mib": {
+      "accent": "#007689",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d5c84be4c867772ea8b415ef3c33fcca6c6df25eb816fce1a9958e37b60ea6b4",
+      "pattern": "strata",
+      "png": "sha256:4865d9758d34379ca4b30aa558cc0d21537edd10044c827d7fb684c9458e9fac",
+      "svg": "sha256:cf8f0f217b003f61b64bd20551686b2643ee268c8282e2fc7c29f3999e91e9ee"
+    },
+    "fabriziosalmi/caddy-waf": {
+      "accent": "#00758f",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:3da575517d3e6d0a4080ce1f5ab089b6f67602bfd07c11891890dbddb2d7b130",
+      "pattern": "strata",
+      "png": "sha256:d7ce58bfeaa7e2291d6766232f552422a7525ec818c9bef110a2136757be0710",
+      "svg": "sha256:45089a4be9e7840d436a4c23968cb919adf5278999488adf2ff36f480caada28"
+    },
+    "fabriziosalmi/certmate": {
+      "accent": "#007e47",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:b2e5e51aa0209946c12d71bb309e007b3186b1ed2479e06dbc3331854417f721",
+      "pattern": "strata",
+      "png": "sha256:51e7e697de03efd8e9bf9644f7733a5c3202300ed23b1c35cec7303697fa5957",
+      "svg": "sha256:ba88b674a0fc44fec99124587211fe4315968f308cce59e18f202c436ae89b20"
+    },
+    "fabriziosalmi/certmate-agent": {
+      "accent": "#7b4bb6",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1faacf4f81e34cd73c96bdbe31ccade0fc5e6cd1dd4b11e75d0ed530e5e0f536",
+      "pattern": "strata",
+      "png": "sha256:fa1ced96a713be7cc03665aa2ad720bf7667b4105ba082c008a3760b477df109",
+      "svg": "sha256:f86e027f84753d88e3a50bee0f624b32d5a2873a058f87d27a3aca820eb0fda5"
+    },
+    "fabriziosalmi/certmate-tools": {
+      "accent": "#a03a8c",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:6617a1321126d9f50e782f9bdf1ea4f28cfa85e58e7093dc8881817b5fed1477",
+      "pattern": "strata",
+      "png": "sha256:8ee1c41999f695ba2dc0c8a12c321a91663cd02117ed09a2756881390fbfbe4c",
+      "svg": "sha256:a5bc710320b6fb3fd820e1bf58dca3d8a3bf3fa9eee737dafa68527a2828b2c9"
+    },
+    "fabriziosalmi/certmate-website": {
+      "accent": "#006fab",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:11fbb6f223003b7e4558fb4c3d86c61f53aac446e201eb34d06bf41af392590d",
+      "pattern": "strata",
+      "png": "sha256:d06e25b144dca20428aedc70adf39774c1b15ad3937a8ae59367bbbe90e05e14",
+      "svg": "sha256:14cb751d1b7732324618d2f69a458469c1b6ad366c90955a2dbd4f3e06bb00a1"
+    },
+    "fabriziosalmi/cf-box": {
+      "accent": "#006db3",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:15887fa1fd31c4431af8232a989a4d7fcdaf33c46b6668a13586047cf09211c1",
+      "pattern": "strata",
+      "png": "sha256:1e2e10ee750bcf1c0e97214786068a101a99caf4ff3e877ea29085bdf9f7b221",
+      "svg": "sha256:ed30cd7703763e2ba26a5f818a306c8b5eb0d0677b3df6bfb1774e68d55b0447"
+    },
+    "fabriziosalmi/cloudflare-backup-actions": {
+      "accent": "#007d4b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:0a58aa7c1b9b353c94751e2014c946b481e9a91ab21874024d7852ac08a40ad7",
+      "pattern": "strata",
+      "png": "sha256:4b91204fc070b30d07f5560991fd27b93ced0ad61633d689434796997ddf7490",
+      "svg": "sha256:327b9ac95cf31ab28b3bd253ef71c1e7fb0763b70e31df2a097525ccea085a52"
+    },
+    "fabriziosalmi/csv-anonymizer": {
+      "accent": "#007b68",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:f0c80484a4675349f698e7de9359abefcf474a9d17d538fac64b4f7b5ff18a3d",
+      "pattern": "strata",
+      "png": "sha256:81eba05947e787694da3f9869444f2484dc4cf74b2ec60144130d5b448a5339c",
+      "svg": "sha256:a66e70192ee513c3aa90d091eae366137d0c611140bf42cf8054800b10db9ee7"
+    },
+    "fabriziosalmi/dnscontrol-actions": {
+      "accent": "#744ebb",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:13a9731be756b78a4cf4241f1012f7e7aecc7074168448e6799cbcf8b395c96a",
+      "pattern": "strata",
+      "png": "sha256:9d244dcc824d285ccbd76a8d23b8e16ced82c1954e9b38e9b1636deaa0e69b2d",
+      "svg": "sha256:c49beb73ed8c9b75c5bdd3dbd45fa2d09d0b4376707528ee1c3ceb1e465acec7"
+    },
+    "fabriziosalmi/domainmate": {
+      "accent": "#b53439",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:c3254ed863153aa4051cb08def59a9cb7d9a07e7893a6259ba5808a31bbd4c7d",
+      "pattern": "strata",
+      "png": "sha256:8d4dc8e24101da30d9fab6d8ecd16ddca46e26df82f3de49045d5ef63138e808",
+      "svg": "sha256:cb57c72b3a0736635f8490031535860308b786456f5091351b739e52eb0bcc6d"
+    },
+    "fabriziosalmi/ethical-ai": {
+      "accent": "#784cb9",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:596b51ae270d787321f7dcea0f1e5d4df112f511f405b57fc6c78b119f3b8c85",
+      "pattern": "strata",
+      "png": "sha256:25a224287d11a46834268380bb55eba1d290d84513bfdd334c677d82f28a54b5",
+      "svg": "sha256:526da96d19f473fe766c67c9a8acb576df09ab7c786bd47e6f9e7e3f22021d6c"
+    },
+    "fabriziosalmi/fabgpt-faq": {
+      "accent": "#953f9d",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:20eb85f5385193d8769ed885f91819d9934dce26fb62e52f6275e1e43a03f249",
+      "pattern": "strata",
+      "png": "sha256:dfc3401d3bec92186445e1eb3e08e2c0ef5fb17eca7a4b310fd567b65f2c9298",
+      "svg": "sha256:603e2fc7002232a3efc5deff84bf79f3a9b48125d7a94be6c47b20ca1095a2be"
+    },
+    "fabriziosalmi/fabriziosalmi": {
+      "accent": "#8f5d00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:781404886006ffab2de0a58554da414b892090d5750bcdf02b6a490e93a65fd0",
+      "pattern": "strata",
+      "png": "sha256:11b8ef596f49d1835502efeef1eda454784116bfeccf77e966a493f03605416c",
+      "svg": "sha256:117c4053d4d9fe6eaefb2d63b424cd4e4ff82227973d7310779bcd216d540b9c"
+    },
+    "fabriziosalmi/fabriziosalmi.github.io": {
+      "accent": "#973f9b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:2eb2647b406a301c80d7cf9c501b86e3b5d99502ae3f9dda01136842e0362382",
+      "pattern": "strata",
+      "png": "sha256:0fa2955d2aeee2e3fdf6a8c9e8cd2f9b4ed7a2683b2b6c3c41d6bdf929c8de12",
+      "svg": "sha256:5c1b3d6992ebafc5912053afe6705ebb5498d8a67a92145a4b5d46f21576be56"
+    },
+    "fabriziosalmi/flareover": {
+      "accent": "#445ec6",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:53926419d9dc527657827d7ee7222fdecb12b2386217f424ae303cc13207ed33",
+      "pattern": "strata",
+      "png": "sha256:e90107c72bf9fe4b9c8f822b426499297396ce957611810e9aaa7f3b506bdb1c",
+      "svg": "sha256:6f5518bcbf8354a60903d17c1288219259451584fa2520b1e717c08a6b49dc86"
+    },
+    "fabriziosalmi/fqdn-model": {
+      "accent": "#007974",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:560c66bf0898d9e3f43c7d1e1a5ae492d3e2913030f2c369dcc0c4597aae57d3",
+      "pattern": "strata",
+      "png": "sha256:e01a88cd0e3441724458a562c1a17d4e8af9243ceb0e5e3e2aa21640118e8437",
+      "svg": "sha256:ab3c914a56c630dbee879a4751b328f594a9ef1d7aeeb1b3da2c281061ceccfe"
+    },
+    "fabriziosalmi/freeundergroundtekno": {
+      "accent": "#94409f",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:6647958535cfdbd49502227191ac0e4215fd5d92fe4a3912599566627958edee",
+      "pattern": "strata",
+      "png": "sha256:7d75eb38bad7762329c2b7519a63dc38871bb51411ff7940d136086ed787fdd2",
+      "svg": "sha256:04aa5ca23ec729ce2219e945a6e20b093bb64bec09c241ebf7076a7b0ec08d27"
+    },
+    "fabriziosalmi/homebrew-flareover": {
+      "accent": "#955900",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:f38b68fa245b7f87ffcfd02f959a36d93ff21195bd1959bbe728a899616a9c07",
+      "pattern": "strata",
+      "png": "sha256:07db1f5786cdd6e19783f920b06d6a64415175041859f0c6dff60bd8eab6bf05",
+      "svg": "sha256:955aa831bd86715503c50cd2c719c05fefdfbc040176dbc7ee695b8868a1270c"
+    },
+    "fabriziosalmi/homebrew-proxxx": {
+      "accent": "#007e46",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:28486b44912dbb168e04babd75cf34662d38600fa27295c4bb17beaece56e3d8",
+      "pattern": "strata",
+      "png": "sha256:c8f4d04b7c632ab3766f4657e0669a2a60848823988f2c6fd4802c01f4140bf8",
+      "svg": "sha256:ca3151c8c1f8ae85a2e39e7a33300f8b8209122fd6ec507cce419e0d38cb10db"
+    },
+    "fabriziosalmi/homebrew-proxymate": {
+      "accent": "#007b69",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:7d2bc0103097feda4b3fb5c1f74a39e230f5162bad90f08c737009d5f16741ef",
+      "pattern": "strata",
+      "png": "sha256:6cb17c5e6584c8784eafebda8fa4d160c4bf15ada50ed75ed0bbdc54396c84fb",
+      "svg": "sha256:39bd7d7eeefbd2b7f22ee2df72a8ae7cbf7f7bad08c80545a945bf1d285b7c01"
+    },
+    "fabriziosalmi/iamnotacoder": {
+      "accent": "#915c00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:561fab25022a7ed292ee3eaedbff6c6ee874020c7afa98a52eb177b9d6e18420",
+      "pattern": "strata",
+      "png": "sha256:2acb5860ba9825795b9ed9b61b49cceb6f784563861743f581130c81c4259d1e",
+      "svg": "sha256:beea02eb7ce7c1ddcffde0a1ec0a49732d59e6b6931e7d09a16d1f2419730d98"
+    },
+    "fabriziosalmi/l0-compressor": {
+      "accent": "#547600",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:6d4fc7a99516bdfdb57f5a233f6d58da83440593ad24e2cd6526a749134612f6",
+      "pattern": "strata",
+      "png": "sha256:3fc848c3c4c7ea5d3bdfb6da73aa382e20f64bfb25421332415a323cd640ba7d",
+      "svg": "sha256:68da4b1577cb3f44539f8ab3a92f4a66e7967c45de9649e460bf8cc7ca89bc1e"
+    },
+    "fabriziosalmi/l0-git": {
+      "accent": "#b4333b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1c55322f916564ad6090a5ba822ff65e6b2e7bf9fe7ecd92d6dbf9d9de59128c",
+      "pattern": "strata",
+      "png": "sha256:d393f8f515a093435c17357efa14fb905a319b411081946bac498adbfd3ff243",
+      "svg": "sha256:cc5922a718830a7aa6cc756d9042f9d086340d98e047c4db0776b858eacff27e"
+    },
+    "fabriziosalmi/l0-memory": {
+      "accent": "#337c00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:f0841836b4e5d0ff7b381367cf377d2a4b625f849c88733704c23af837365c24",
+      "pattern": "strata",
+      "png": "sha256:4267222190c5ded41f4600ad5a3ab1ed128f70504f6d7a9aae69e4c943ee6e47",
+      "svg": "sha256:f20857976cec6580650ecf61d13f343bbc4f4a6e7e8f1708dbbecbd2e77f7be0"
+    },
+    "fabriziosalmi/limits": {
+      "accent": "#94409e",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:37c0d8af2302f5561c95ae6864583e1cfb9e6b977d68f4cc2ab84dd6b82903e2",
+      "pattern": "strata",
+      "png": "sha256:a3a6a59f7fbafa0228c8ad1106f4f527bbee50335ecb0f4f38711b97e41bd101",
+      "svg": "sha256:82da68461b132fbe627a1ef8a02ce12f96e4fd0b4842d3735244f2c3b9458abe"
+    },
+    "fabriziosalmi/linux": {
+      "accent": "#415fc7",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:ebbcf2805349dae50af48ade149b2871da601e2dae0f9cebc0adec016eb8cc67",
+      "pattern": "strata",
+      "png": "sha256:1c23bed380cdf4d653f9fca4b7268085b42d72947246ce17d0399b8a09c92c28",
+      "svg": "sha256:6f149ecfbd1b1f419b26a3a8ed7cc5fa5a0b886e9b2a5aeba9ff58db646db8fc"
+    },
+    "fabriziosalmi/llm-benchmarks": {
+      "accent": "#b53438",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:0850a97ada9c6a566461e91614e114cc5e6930f78a293d247fc13bcdd8af613f",
+      "pattern": "strata",
+      "png": "sha256:ab0192a8fa6c38e2362c4daa822ce2a8ef6d9393ec32332a25f28cce1ad0339f",
+      "svg": "sha256:05d880c3c83e734f5d1a46c9c71feef6cd2b66d11717c1b2325ab35e3a4b8f7b"
+    },
+    "fabriziosalmi/llmproxy": {
+      "accent": "#4f5bc6",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:777a45827c67a6ea03b6d852252f37ddc96f22849da9391562e4836b4cc6f016",
+      "pattern": "strata",
+      "png": "sha256:e9650fb19b1229d789e841aff072fdb6ddb508efac6538c2efc397d49efb293d",
+      "svg": "sha256:dc6bcced23adc2cdfac17d139aa7fb4fa0118de8e12ab4b813f8da0fbf1fe0d0"
+    },
+    "fabriziosalmi/logos": {
+      "accent": "#5d7300",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:16dff11c1d9d1c0578381e87639c5d7e2fe4bb9e8df2d8342b2c1a116c69f3cb",
+      "pattern": "strata",
+      "png": "sha256:749462dca134c62683170e587c5348c9eac7e615f3de669d88169256248b105d",
+      "svg": "sha256:36d85d3e4293e827b53e58cdfb3154aadcb81f1c00f5fca598ca9ce1fb58b947"
+    },
+    "fabriziosalmi/lws": {
+      "accent": "#734ebc",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:46c1cc94619d8d80657c4e80e2625f6515d16c9140d3dc85924ee8a6ded26edd",
+      "pattern": "strata",
+      "png": "sha256:47aa2d3fbd46af2ba8816e5935c6aff644dbe4ad7e52d4966ec6bda789a7d8ed",
+      "svg": "sha256:aafd7a5a4ca674774da374d1c61884f151cc3ed3de8fe8dd0736a70548c0eade"
+    },
+    "fabriziosalmi/mixi": {
+      "accent": "#a13a8b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:759bd2659a8dfcc7e2957afefab7da86d841ccebf534abc19c38b4309a098f4f",
+      "pattern": "strata",
+      "png": "sha256:cdd4314655ba4a5c0f23871ef4d137568119360c48710be704246379a008e079",
+      "svg": "sha256:a467cf86be35af9f3991707af3b1f64a8ff9246abaa7966feb3b8c70a52966a3"
+    },
+    "fabriziosalmi/mixi-cut": {
+      "accent": "#5a7400",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:551241c236da635b57b5a9eb3ebf2ef7004147976134e12b503f5c2517b3eb0e",
+      "pattern": "strata",
+      "png": "sha256:7ea7b83586bbcf13952a7f7c27dd92b1c8c65ef1871e844b95b604f7ade3c959",
+      "svg": "sha256:c6c925a1ecb1203fbe1a7dcc320e3133c5938f523d9df22981ce70caee986757"
+    },
+    "fabriziosalmi/mixi-decks": {
+      "accent": "#007492",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:249a3e1ba46778fb33ef442f40d73c3e8d2ac112a950e9e51744993a4d88da74",
+      "pattern": "strata",
+      "png": "sha256:07d1a4fed9dcf56e67438b77bf1ca6f89daf2e1b3990601ca812f6aec38e6418",
+      "svg": "sha256:2954bfe0c285718b054ef6062fa4ce43f853413a71fae6882a86f17d978cc43a"
+    },
+    "fabriziosalmi/naso": {
+      "accent": "#4d7800",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:dd1a472ef623480bdc8bd5c8a75c3f6a4c3d9dc6c51461dc02a9053688300f79",
+      "pattern": "strata",
+      "png": "sha256:fce12590c738b2cbd6d66372bc66deb9d4faacacbfdb3a31c4ee3400704dc2f5",
+      "svg": "sha256:4c8c707b7772e96f39a7383a0c471b07209a466320abe72cb34d1c1c059f92cf"
+    },
+    "fabriziosalmi/navigator": {
+      "accent": "#545ac5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d4f03e0cb6781df1cdb65869915277a89ab23d70944d7de3a624b2c679bb0328",
+      "pattern": "strata",
+      "png": "sha256:7ed8a0936faf9f2628b8972248a1e08749e6638cdce7095bb02f9e9c7cee3bb8",
+      "svg": "sha256:217e694ff3dbda448d5247e93dea4a05cb068329c47641d181c30cfdab990f22"
+    },
+    "fabriziosalmi/newsgator": {
+      "accent": "#007d4d",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:e0da0499d0ab1ab07c6dbd4bf926623a0eb2c544968d9f8f8c2d836886aa9ec4",
+      "pattern": "strata",
+      "png": "sha256:f34ae2db0213c8735170413efbd57c38d5869edfc5eb3108b8c2cf9ea7dffc98",
+      "svg": "sha256:9da5042022d7837cdf33582b5527144f456275f716e20cb2de889f43999538fa"
+    },
+    "fabriziosalmi/nginx-waf-ai": {
+      "accent": "#457900",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1f12db40d8defdc6768522200fd32c9ddf89244121f99e1b5e4a64606cc3cbcd",
+      "pattern": "strata",
+      "png": "sha256:11afa8cb4ae77ef2dfdba76d7867b4be825ce93c57fed7d3af42d1908a1456c9",
+      "svg": "sha256:82b5ef1c5afd23297bef8c419eddf53b0075d6a45e94dc8fbf981c5fcc8bfbcb"
+    },
+    "fabriziosalmi/nis2-model": {
+      "accent": "#3f7a00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:acc5615b19bd623f9c0186b3a17b6541963327546674db57fbc4e46ead9688d2",
+      "pattern": "strata",
+      "png": "sha256:aa2d231c5e38bcfe2b7a6d953e7360260107ace58621a544ec06eb7877d217e1",
+      "svg": "sha256:566c086dbe0017a10ee7402ea5c3d24cfdd3e37bd6469c49dbffdd50fa6f5a1a"
+    },
+    "fabriziosalmi/nis2-public": {
+      "accent": "#983e99",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:e6ed067cb308c07722cc8b25e928c447272ff26773f72e704b050584e4f11c93",
+      "pattern": "strata",
+      "png": "sha256:d3632b8454f123cae0e9760045b7c0ca6a522731a33f0fd2a442335293b0bf97",
+      "svg": "sha256:8ae9eb64e0697deb0f1dcf81c009ac60fc017c1822b0de37188aab8141673859"
+    },
+    "fabriziosalmi/noted": {
+      "accent": "#995600",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:01ef24f7871d6411a4b5e19a8dbf7578ede49c92e0e12ef47deaa6d42088282e",
+      "pattern": "strata",
+      "png": "sha256:0f6ae9806622bee6009dbaaeac8e9fa82ba8579c93fda5bd23320636e90a07e7",
+      "svg": "sha256:2ab34c58531a8655f89aa6f3238b5eec6b575ded5817656172d38cf579822d61"
+    },
+    "fabriziosalmi/occam-gitignore": {
+      "accent": "#2465c6",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:067d86d83a520121d840503e0d54c93318ee9b2c3e84265f8d992def5fbe1c04",
+      "pattern": "strata",
+      "png": "sha256:a089d9256cb5716afbc6fdd5dcc04c8e00ab4593f39b74c842c1d25398272a9e",
+      "svg": "sha256:78e2509c5e9becbe888eb9f228595e6381e8f74cce4b2de918bc191604c354ac"
+    },
+    "fabriziosalmi/occam-observer": {
+      "accent": "#a03a8b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:48d0a9f4c0050a6c74b818b7c3fec0f38419221ade6f209224fdbc31563d8dc7",
+      "pattern": "strata",
+      "png": "sha256:e4238c453777a7103ccebe2ff8f29266ce55112aa2d90441c7f5eb5e57d25d91",
+      "svg": "sha256:a813f3fbbcae50cb1999186a343a0c9d34b44efb8c75e6d5a05c99235b846c66"
+    },
+    "fabriziosalmi/open-bpm": {
+      "accent": "#7d4ab5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:305b9d0186796f772dca4d3bcbc0673a4b8fcbfa883c8b623d26152bac7dd7b0",
+      "pattern": "strata",
+      "png": "sha256:0b1ab0fd0f0eb1fbd23b16107467665bf801920e5576ba25af85fd0f2cc73b51",
+      "svg": "sha256:8011ddcb021b0e281da80f9e5ff7ed6eea7087c09f66e4aee48e8d62964dee85"
+    },
+    "fabriziosalmi/open-video-watermark": {
+      "accent": "#007f31",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:c97a7209ab2219b369cce00f92be711336e56bd6bd69dbf7f8169d3b4d5d8814",
+      "pattern": "strata",
+      "png": "sha256:dd902c33458f3cab04993a3179646304af2086c8ba10317ec70ed332e5e248b1",
+      "svg": "sha256:dea28560cefb8d883b9bf2e8d1cc40b21e81f0cb75de9b09b6f5301724d95386"
+    },
+    "fabriziosalmi/patterns": {
+      "accent": "#5a58c4",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:6c62b23a92ca96239bf84a2340fbaa8602b541c6d31a385a0c2137de166ee67f",
+      "pattern": "strata",
+      "png": "sha256:f709fc31ebbf6f4e6f0d2bf331359cd36b7d91ae6e334da652ce7b54616f2979",
+      "svg": "sha256:0912eab4ac86a008ba6ad30da5e807dc9db48254565ed576ef058deb586a47e4"
+    },
+    "fabriziosalmi/pdf-ocr": {
+      "accent": "#7e4ab5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:6b3c8e6bfc06fe7414dcd9ac8d94deb0de4fd2467015c416f94afe9b1b3d0ce7",
+      "pattern": "strata",
+      "png": "sha256:2d4dfceda87e6d7d8044ad746a05e1252d06952b07fba3fe3a7679fc6b0ddfa2",
+      "svg": "sha256:2bff1e86535bc30c352ea9b475aa5632d022c92290c243976bbd34e92a510b3b"
+    },
+    "fabriziosalmi/proximity": {
+      "accent": "#9f3a8d",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:1c59352fca7c528895fec990377756c316b2c015a5fba5c097abf4907c2ab599",
+      "pattern": "strata",
+      "png": "sha256:1f724c3a121c3fac4aa2a0a6c23705d74df54ef96607f6d5fa7cbc91671f51e8",
+      "svg": "sha256:2705e33e5d1437c0032d40198e7306fc0d60297396c5559a953b8047714d8227"
+    },
+    "fabriziosalmi/proxmox-cluster-balancer": {
+      "accent": "#0d67c5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:cc1a96c1f35dd86afd5b23b5b5e4987856485c81616ad4f80290da03c4e760ba",
+      "pattern": "strata",
+      "png": "sha256:4329f2465080ea4977267369759ab22606678168e0e3347e58e56ec9fcd43bd2",
+      "svg": "sha256:77b6ca73fd602df140e55adb75d9545b63758db5a80847c716c37c38de63eb33"
+    },
+    "fabriziosalmi/proxmox-lxc-autoscale": {
+      "accent": "#597500",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:59e3c20a88982ff400d55332d6937f13d607e1d52b84fbfdc1fcf1ffc375be50",
+      "pattern": "strata",
+      "png": "sha256:164b08f47ed1469949fbdfdbc753c36e1fabb97aaa9f6138b620f6fe6f3bef37",
+      "svg": "sha256:50af557080bac9d33ea667f0aecbf273da062ec8549594b38e834fe34bd2f5d2"
+    },
+    "fabriziosalmi/proxmox-lxc-autoscale-ml": {
+      "accent": "#007a71",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:02c7bc42943a3257841d856f88937fb0a7141d70f24669b1a63ff6e384a694ac",
+      "pattern": "strata",
+      "png": "sha256:e196a5ce5b1bb77e56e5f55b626044b762234298c9505b0b36e14a93dfd70aa4",
+      "svg": "sha256:af9ef0212471a5a5ebe0bad2cb8c18cb29030d799d33afdb5e1fd25522a42b73"
+    },
+    "fabriziosalmi/proxmox-vm-autoscale": {
+      "accent": "#007b67",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d3d6544e79674c8d3a922f06c61813475f9cf6a48193c7fef0c76ac8561579e6",
+      "pattern": "strata",
+      "png": "sha256:9379c0b5b4a3ba5ae67ca4426d1de605d64ed3716f0ac12ff6fbdd0752cdfada",
+      "svg": "sha256:8bd57ed8628c7e61b50249aa8de70c389853d6e05547d525d00c7be0ea8a0e71"
+    },
+    "fabriziosalmi/proxxx": {
+      "accent": "#8f5d00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:7c6bf950aafee21388c53beb20e7422bf0538525b0bab870eb0be9f0a213f5e0",
+      "pattern": "strata",
+      "png": "sha256:a08ce05b1239202d2f52e474068e4c7d17ebcd994f1ff33a3bb59cdf20434772",
+      "svg": "sha256:7d3de47b109d6c658a816a99fdf266d1b00c1d1305cd2b7ca3b39374740e89f6"
+    },
+    "fabriziosalmi/proxymate": {
+      "accent": "#b3324b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:94279dd0c750bfcb9ec7972055871d12b75957d71ae51ef0519fb64445c94ddb",
+      "pattern": "strata",
+      "png": "sha256:50a7910ee7e9cc9b1f9fe8c3144b94cad5ce2f62e2c0d920e2c70a2d878a9c65",
+      "svg": "sha256:bc18133f75de411b0f4d413fb8129a937e4c6ade237a89a9f952b2e60edb8d1a"
+    },
+    "fabriziosalmi/rainlogs": {
+      "accent": "#953f9c",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:490e6d5fe0a984520ca32bba98a678c6ab815ea909c7b6646a93b80844625a1a",
+      "pattern": "strata",
+      "png": "sha256:98ac4c429d5f8f8064647a6c5658499cdbdaf4d651ebcc05af879bc39c7466eb",
+      "svg": "sha256:bcc2fa1861a4c700ac09b9e597aa6f7c11da802163daa1fe0446cd2606ab5d62"
+    },
+    "fabriziosalmi/repos": {
+      "accent": "#1a66c5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:bace879e2f4d2a01ba78d7ea952f3eda5c98b54de77f9f438d35fe1fcbf728ea",
+      "pattern": "strata",
+      "png": "sha256:34c857d962a30771f7a8ab6fe9edbf61697bed57606a3a28b6bb0728a1820559",
+      "svg": "sha256:9bb4d631d2bd489b75eaf6b7731d0d7944804e24f55a30e477de6798145e0b34"
+    },
+    "fabriziosalmi/secure-proxy-manager": {
+      "accent": "#457900",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:299a6bf54a32cee21d7ef6c30f69f2e70975cd4b60fccbc4ae1422515694fdfc",
+      "pattern": "strata",
+      "png": "sha256:76284ae9b8b5835b369b8ddc049cb5bc6371b7bb32bca48ae5af6f04c9f2f871",
+      "svg": "sha256:21264da7bda7e2b923e5e3d7f5adafb081c54f8c25f4a2aaccd1204e3c00df1b"
+    },
+    "fabriziosalmi/silence": {
+      "accent": "#007784",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:2ed79f58a21977c32e75a29066521b0b240edbf3f7a7198c691da82240cf59e1",
+      "pattern": "strata",
+      "png": "sha256:4797ac1b09c5562166a3937e7648a0bd269f239a1e7a802bcc04adcccc4c5585",
+      "svg": "sha256:aa18be8bd285800f9fa3c8b065996722a16b9e9fa60c5d25b7fb242978bc08ba"
+    },
+    "fabriziosalmi/silicondev": {
+      "accent": "#0069c0",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:b3c52a74da604ec1a0f282cd0b6dd62cf88c24bf89fb7784385df08efede8bf9",
+      "pattern": "strata",
+      "png": "sha256:4b3e3b9457d1867686ff65f3483284416ba46973a4e7425b7d82149ba1beb0b8",
+      "svg": "sha256:7bb2651bd7ca306ba417db0d19756673129e64a4397373ca650d7fcc46524c7f"
+    },
+    "fabriziosalmi/slopless": {
+      "accent": "#507700",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:c2e214390d89a7ceb1c3e41660c4e31e498e658510de0617703815ab38aad938",
+      "pattern": "strata",
+      "png": "sha256:ff1fe799e11054e3f53da0c8cdd1bbc21fc6372ff8d1a0ddf48a4797cd130d21",
+      "svg": "sha256:2467b3730ea9de038cdfc35920071178dd97b74c803386821bec79146cca0cc1"
+    },
+    "fabriziosalmi/space23": {
+      "accent": "#9d3c91",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:d1855f9ad5cd612f289d6c3a95dcbe11e0ed29cab435b6bfcc26614e3a03de55",
+      "pattern": "strata",
+      "png": "sha256:efce75c2fa76dd0cb6e1e73eb44bbde76baf27b96bc0db311f565f6138aa1b1f",
+      "svg": "sha256:6501242f398359398e1a6d26ab2505a0d9a292e10e1d326d005ac38293e4718d"
+    },
+    "fabriziosalmi/speedmate": {
+      "accent": "#007d51",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:86b0437070049309c7753b8d8fa2a24db8dccb545fe10f07d50aa2928ebbe0b4",
+      "pattern": "strata",
+      "png": "sha256:bee9e98f40678bb00c7fc3910c94c8ffadc35e831b1161899f25c15bc0bbd6a6",
+      "svg": "sha256:f2d583e1ace0a4d08b5c776d1eef912532bfe7a8b02ca55b7b0dd15e8be9a246"
+    },
+    "fabriziosalmi/synapseed": {
+      "accent": "#007a6b",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:5767702821a2a670dc33ad5362b089c557e37e945c839e63669a6b43add0a793",
+      "pattern": "strata",
+      "png": "sha256:5643205982a15d9cee4b5716909c404fc87d2c8449e31cd72a7e412f5618623a",
+      "svg": "sha256:a1a48221e1e80d6b99c2476fdba426b5ce0df32afe5667b20e027d3c54c62444"
+    },
+    "fabriziosalmi/tanstack-compromise-checker": {
+      "accent": "#007a6a",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:c2da30614c3e9371a6ee7513c601e01e2cc96e1852d47e6c0f918ba6b43cac52",
+      "pattern": "strata",
+      "png": "sha256:498dc3303628a48934655748e6f46a2d107946ae30f99538ad7ca766a25a9acd",
+      "svg": "sha256:0a01ddc4a5737d50df92f058b35f267dbbe68f160d4cf7600f579702d2df6b8b"
+    },
+    "fabriziosalmi/txt2vst": {
+      "accent": "#5759c5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:e709d4f5f3dba5266b4b524e9907a1d7610d749acbf8251b13e338db3d7e7fab",
+      "pattern": "strata",
+      "png": "sha256:3ec650960069e535eb88eb307343305a26a2ff79e80c4666b4b6b353d458574f",
+      "svg": "sha256:3d5a806ea7de7acafd1d84d4eda57d03928b0dbdea768c2b0ea4c59086823fe3"
+    },
+    "fabriziosalmi/uglyfeed-cdn": {
+      "accent": "#b33250",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:bd3c6baa04ed7d071251690679f15d4f0ea741943c74086791718773506bd071",
+      "pattern": "strata",
+      "png": "sha256:25d7c3a0bc4e81d11bdee412003577b7e4fb957b4eb68e312b69ab21adf6b194",
+      "svg": "sha256:406367139f2afd7ecbe1726496e8c02ec2b44697274042d85c34025bbaada4f2"
+    },
+    "fabriziosalmi/vibe-check": {
+      "accent": "#007a69",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:e462fc9ab9ce43d962bae7ad7ebf3a9c5a51c9a1efd8dd1268e2093470f9b345",
+      "pattern": "strata",
+      "png": "sha256:99ca816b7247f187c1a4e12176ede1d912a91d90ca5e8ce7f07ad538c806e13c",
+      "svg": "sha256:55841fec3dd97d806a9b3e43c64b043013e4be4ec21e748dbbf1923367250dac"
+    },
+    "fabriziosalmi/wafcontrol": {
+      "accent": "#1067c5",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:49493f8ede2e7311c880ac39151fd63f53b63603482ce5a0247e81ea47759d2e",
+      "pattern": "strata",
+      "png": "sha256:8e8691ddf2853d5a98a95d2591765ab5bd6490e6fb7cec6fe0f1ac63a1570c16",
+      "svg": "sha256:16719ba847adf6b78b52d659ddfb6b7417a81be84b26486b03a9386df208586a"
+    },
+    "fabriziosalmi/web-kick": {
+      "accent": "#007a70",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:98643b05d54e8ef0a66a1e6513eab2e866ab535d9ee7f7957f56ed9bb9959ce0",
+      "pattern": "strata",
+      "png": "sha256:7f94f918d68118982eae8920aedfbb530e41356bddab0045ada1b76bfb98c80e",
+      "svg": "sha256:cdd058e96850783a24d6179ea7987774584d1e52523cd2a8086fceac3fafb5d0"
+    },
+    "fabriziosalmi/websites-monitor": {
+      "accent": "#8e5d00",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:5e4dd9dc63dc0df5b4c6ababd64b45951cdf97fcaf13056f62aa1f0f5d158fa5",
+      "pattern": "strata",
+      "png": "sha256:2b23800137fedee98fd57c99f2aec1a0666a6120f3db401dc2d299dc277fdffd",
+      "svg": "sha256:ed76a4306aeb176737788dfe1cb91cdfb358fd80546e07dd582aaa9df2e092b7"
+    },
+    "fabriziosalmi/webtek": {
+      "accent": "#8248b2",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:ee78eb6bb731d788ca0a057ec5dc4e74a1baf9dd64a8ce47f4d7f33a82a6a25d",
+      "pattern": "strata",
+      "png": "sha256:b657c1645b0ae0ea45134d54e8a14a8b3a49976beb57f50bcbe3380ec188b156",
+      "svg": "sha256:87d11872538461751433b3f00563663ce84ccff8299fc3e01ee19b0b56c24040"
+    },
+    "fabriziosalmi/wildbox": {
+      "accent": "#8348b0",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:664fab9ff234918e5f026aa68dfdfb242288a371bbe412e818a21bfcdb9fc1ac",
+      "pattern": "strata",
+      "png": "sha256:35d55da85aff282d3077eb73dcae43d0cbeb7c468aa04e9b38548186b8b4b620",
+      "svg": "sha256:2d38f50f46068ff7742ab7fd58008fe3d91d1eeb553d72b52e0f8c98b098b439"
+    },
+    "fabriziosalmi/zion": {
+      "accent": "#007976",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:0a02041e311f3a3cf7a1936ba2626839ef9d615cd44fca570f61c1dba1bb5c0d",
+      "pattern": "strata",
+      "png": "sha256:e25d7388c18dc98e18dc7e10422e4cf6408c771cc99081a607b6a66dbf26a00a",
+      "svg": "sha256:0286e81c19450b1f21c13c665665dbae78aa92f6b82d1a8805615bbc718ad8e7"
+    },
+    "fabriziosalmi/zonecontrol": {
+      "accent": "#b43345",
+      "backend": "rsvg-convert 2.62.3",
+      "generator": "gspg 1.0.0",
+      "input": "sha256:9b33412ef68029d38e9377155b5fa15e9923208497d121a2a3289ac0c5a3434c",
+      "pattern": "strata",
+      "png": "sha256:3128bd36d23e0361a9d8e2d058109ff11f911e76b3931f36cb9027f59b58f03a",
+      "svg": "sha256:12058378c9e83479780437e232d9508659b8ae547948072f57ecb4a0ca571be0"
+    }
+  },
+  "version": 1
+}

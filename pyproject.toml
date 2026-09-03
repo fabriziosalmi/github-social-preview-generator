@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-social-preview-generator"
+version = "1.0.0"
+description = "Deterministic, offline social preview images for GitHub repositories"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Fabrizio Salmi" }]
+keywords = ["github", "social-preview", "opengraph", "svg", "generative", "offline"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Multimedia :: Graphics",
+]
+# No runtime dependencies, by design. The only external requirement is an SVG
+# rasteriser on PATH, and `gspg doctor` reports which ones it can find.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/fabriziosalmi/github-social-preview-generator"
+Source = "https://github.com/fabriziosalmi/github-social-preview-generator"
+
+[project.scripts]
+gspg = "gspg.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Glyph packs and their licences ship with the package: an installed copy
+# renders without the source tree and without any font on the system.
+gspg = ["assets/fonts/*.glyphs.json", "assets/fonts/*.txt", "assets/fonts/*.json"]

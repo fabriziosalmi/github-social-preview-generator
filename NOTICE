@@ -1,0 +1,15 @@
+github-social-preview-generator
+Copyright (c) 2026 Fabrizio Salmi
+Licensed under the MIT License. See LICENSE.
+
+This product bundles glyph outline data derived from the following font,
+licensed under the SIL Open Font License, Version 1.1:
+
+  Inter 4.1
+    Copyright (c) 2016 The Inter Project Authors (https://github.com/rsms/inter)
+    Licence: src/gspg/assets/fonts/OFL-Inter.txt
+
+The derived data lives in src/gspg/assets/fonts/*.glyphs.json and is produced by
+tools/build_glyphpack.py from the archives pinned in src/gspg/assets/fonts/fonts.lock.json.
+It contains glyph outlines, advance widths and kerning pairs, and is covered by
+the OFL exactly as the fonts it comes from are.

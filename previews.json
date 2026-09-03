@@ -1,0 +1,964 @@
+{
+  "$schema": "./schema/previews.schema.json",
+  "version": 1,
+  "defaults": {},
+  "repositories": [
+    {
+      "repo": "fabriziosalmi/agssh",
+      "description": "AGSSH-STD-001 conformance runner — deterministic air-gapped static-surface hardening (egress/CSP/headers/DNS) with signed evidence",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "topics": [
+        "air-gap",
+        "compliance",
+        "hardening"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/ai-dependency-guard",
+      "description": "Automatically scans your PRs and commits to ensure no LLM-hallucinated packages enter your dependency tree",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "dependency-management",
+        "hallucination-detection",
+        "llm-safety"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/ai-hallucination-research",
+      "description": "Empirical Analysis of AI-Induced Dependency Hallucinations",
+      "language": "Astro",
+      "license": "MIT",
+      "topics": [
+        "ai-safety",
+        "hallucination",
+        "llm"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/ai-security",
+      "description": "AI Security - Guida in Italiano",
+      "language": "HTML",
+      "license": "CC-BY-4.0",
+      "topics": [
+        "ai",
+        "ai-security",
+        "artificial-intelligence"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/aidlp",
+      "description": "Data Loss Prevention (DLP) for LLM endpoints.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "ai-security",
+        "data-loss-prevention",
+        "dlp"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/aimp",
+      "description": "A serverless networking protocol designed for resilient state synchronization between autonomous agents in fragmented, low-bandwidth networks",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "ai-agents",
+        "distributed-systems",
+        "networking"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/asn-api",
+      "description": "ASN intelligence system",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "asn",
+        "bgp",
+        "network-security"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/audiogen",
+      "description": "AI-Powered Sound Generation & Classification.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "automation",
+        "classification",
+        "generation"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/audiolibri",
+      "description": "https://audiolibri.org - Raccolta di audiolibri gratis in Italiano",
+      "language": "HTML",
+      "license": "CC0-1.0",
+      "topics": [
+        "audiobooks",
+        "audiolibri"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/awesomeness",
+      "description": "List of awesome open source projects",
+      "license": "CC0-1.0"
+    },
+    {
+      "repo": "fabriziosalmi/b2v",
+      "description": "Store large files as video streams",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "experimental",
+        "rust",
+        "storage"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/blacklists",
+      "description": "Daily updated domains blacklist 🚫",
+      "language": "Python",
+      "license": "GPL-3.0",
+      "topics": [
+        "banned-sites",
+        "blacklist",
+        "cybersecurity"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/brandkit",
+      "description": "Yet another brand assets generator",
+      "language": "HTML",
+      "license": "MIT",
+      "topics": [
+        "assets-mobile",
+        "brand-assets",
+        "branding"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/brutal-coding-tool",
+      "description": "Audit your vibecode and make it brutally solid :)",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "code-review",
+        "gemini"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/caddy-feeds",
+      "description": "IP blacklist, DNS blacklist and OWASP rules daily updated for caddy-waf",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "blacklists",
+        "caddy",
+        "caddy-waf"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/caddy-mib",
+      "description": "Track and ban client IPs generating repetitive errors on Caddy",
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "topics": [
+        "caddy",
+        "ip-ban",
+        "middleware"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/caddy-waf",
+      "description": "Caddy WAF (Regex Rules, IP and DNS filtering, Rate Limiting, GeoIP, Tor, Anomaly Detection)",
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "topics": [
+        "caddy",
+        "caddy-module",
+        "caddy-plugin"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/certmate",
+      "description": "Self-hosted certificate lifecycle management: issue, renew, discover, inventory and deploy TLS certificates across your infrastructure",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "acme",
+        "automation",
+        "certificate-discovery"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/certmate-agent",
+      "description": "Lightweight LLM-powered assistant for CertMate. Local LLM + 1:1 REST tools + RAG over docs.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-workflow"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/certmate-tools",
+      "description": "Free, privacy-first client-side TLS / certificate / ACME tools — companion to CertMate",
+      "language": "Astro",
+      "license": "MIT",
+      "topics": [
+        "acme",
+        "certificate-tools",
+        "certmate"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/certmate-website",
+      "description": "CertMate website powered by GitHub pages.",
+      "language": "Astro",
+      "topics": [
+        "acme",
+        "automation",
+        "certificate-management"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/cf-box",
+      "description": "cf-box is a set of Python tools to play with API and multiple Cloudflare accounts.",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "allowlist",
+        "blacklist",
+        "cloudflare"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/cloudflare-backup-actions",
+      "description": "Cloudflare zones and records backup via Github Actions",
+      "license": "GPL-3.0",
+      "topics": [
+        "backup",
+        "backup-dns-data",
+        "cloudflare"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/csv-anonymizer",
+      "description": "CSV fuzzer/anonymizer",
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "topics": [
+        "anonymizer",
+        "csv",
+        "csv-export"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/DevGPT",
+      "description": "Code together, right now! GPT powered code assistant to build project in minutes",
+      "license": "GPL-3.0",
+      "topics": [
+        "ai",
+        "ai-developer-tools",
+        "ai-development"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/dnscontrol-actions",
+      "description": "Automate DNS updates and rollbacks across multiple providers using DNSControl and GitHub Actions",
+      "language": "JavaScript",
+      "license": "MIT",
+      "topics": [
+        "aws-route53",
+        "cloudflare",
+        "configuration-management"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/domainmate",
+      "description": "Domain and security monitoring system",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "dns-security",
+        "domain-monitoring",
+        "security"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/ethical-ai",
+      "description": "Automate LLM ethical self-assessments",
+      "language": "Python",
+      "license": "GPL-3.0",
+      "topics": [
+        "assessment",
+        "assessments",
+        "automated"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/fabgpt-faq",
+      "description": "Risposte tecniche su Cybersecurity, AI & LLM, Proxmox e Cloudflare",
+      "language": "HTML",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/fabriziosalmi",
+      "description": "my own github profile",
+      "language": "Python"
+    },
+    {
+      "repo": "fabriziosalmi/fabriziosalmi.github.io",
+      "description": "Landing page and canonical privacy notice for my GitHub Pages project sites",
+      "language": "HTML"
+    },
+    {
+      "repo": "fabriziosalmi/flareover",
+      "description": "Deterministic, 0% false-positive engine to migrate your proxied CDN/WAF edge to EU-sovereign self-hosted infrastructure (Caddy · caddy-waf · PowerDNS · CertMate · MinIO). AGPL.",
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "topics": [
+        "agpl",
+        "caddy",
+        "certmate"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/fqdn-model",
+      "description": "Tiny and fast FQDN classifier to detect malicious domains",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "blacklist",
+        "classifier-model",
+        "dataset"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/freeundergroundtekno",
+      "description": "Free Underground Tekno Radio since 2008.",
+      "language": "JavaScript",
+      "license": "CC0-1.0",
+      "topics": [
+        "always-on",
+        "festival",
+        "freetekno"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/homebrew-flareover",
+      "description": "Homebrew tap for flareover — deterministic Cloudflare → EU-sovereign migration engine (0% false positives)",
+      "language": "Ruby",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/homebrew-proxxx",
+      "description": "Homebrew tap for proxxx — terminal cockpit for Proxmox VE & PBS",
+      "language": "Ruby",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/homebrew-proxymate",
+      "description": "Homebrew tap for Proxymate — install the notarized macOS menu-bar proxy",
+      "language": "Ruby",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/iamnotacoder",
+      "description": "AI code generation and improvement",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "agentic-ai",
+        "automation",
+        "code"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/l0-compressor",
+      "description": "l0-comp compresses any command's output with generic, format-aware filters instead of maintaining a parser per tool.",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "llm"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/l0-git",
+      "description": "Deterministic project-hygiene quality gates for the open workspace (cli + MCP + VSCode extension)",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "git"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/l0-memory",
+      "description": "Minimal long-term memory for AI assistants: Go MCP server + SQLite + VSCode extension",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "ai-assistant",
+        "mcp",
+        "memory"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/limits",
+      "description": "Automated rate limits implementation for web servers",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "apache",
+        "caddy",
+        "caddyserver"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/linux",
+      "description": "Linux Scripts & Snippets Collection",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "aws",
+        "cdn",
+        "cloudflare"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/llm-benchmarks",
+      "description": "benchmarking large language models (LLMs) with a focus on their mathematical capabilities",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "benchmarks",
+        "evaluation",
+        "learning"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/llmproxy",
+      "description": "Security-first proxy for Large Language Models",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "llm",
+        "prompt-injection",
+        "proxy"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/logos",
+      "description": "Dynamic SVG asset generation service built in Go",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "golang",
+        "image-generation"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/lws",
+      "description": "Unified command line interface for Proxmox, LXC and Docker.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "command-line",
+        "command-line-tool"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/mixi",
+      "description": "Deterministic audio workstation. Browser-native. Zero install. Dual decks, Rust/Wasm DSP, WebGPU visuals, 19 instruments, automixer, beatmatching, 17 skins, MIDI, headphone cue.",
+      "language": "TypeScript",
+      "topics": [
+        "audio-workstation",
+        "beatmatching",
+        "daw"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/mixi-cut",
+      "description": "Open-source timecode vinyl signal generator for DVS lathe cutting (MIXI-CUT protocol)",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "audio",
+        "dj",
+        "dvs"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/mixi-decks",
+      "description": "Drop-in plugins for the Mixi platform",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "audio-plugins",
+        "rust",
+        "typescript"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/naso",
+      "description": "Self-hosted breach and dark-web exposure monitoring: ingest leaks, correlate identities, triage with a local LLM. Your infrastructure, your data.",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "celery",
+        "dark-web",
+        "data-breach"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/navigator",
+      "description": "The Sentient Interface SDK. Navigate the web with gesture, voice, and predictive AI.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "accessibility",
+        "keyboard-navigation",
+        "sdk"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/newsgator",
+      "description": "Yet another RSS feed aggregator with LLM powers.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "aggregator",
+        "content-rewrite",
+        "llm"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/nginx-waf-ai",
+      "description": "Automatically detect threats and deploy WAF rules using machine learning",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "automation",
+        "deployment",
+        "machine-learning"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/nis2-model",
+      "description": "NIS2 Compliance Assistant",
+      "language": "Rust",
+      "license": "EUPL-1.2",
+      "topics": [
+        "compliance",
+        "cybersecurity",
+        "dora"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/nis2-public",
+      "description": "NIS2 Continuous Posture Management and Remediation Platform",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "certmate",
+        "compliance",
+        "cybersecurity"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/noted",
+      "description": "MacOS desktop app for taking notes in Markdown/HTML, with built-in AI, note links (wikilinks), global search, local history, and Git integration",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "backlinks",
+        "electron"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/occam-gitignore",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "deterministic",
+        "gitignore"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/occam-observer",
+      "description": "An Out-of-Band, Event-Driven Git Telemetry Daemon",
+      "language": "Shell",
+      "license": "MIT",
+      "topics": [
+        "daemon",
+        "git",
+        "observability"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/open-bpm",
+      "description": "High-accuracy BPM detection",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "audio",
+        "bpm",
+        "dsp"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/open-video-watermark",
+      "description": "A video watermarking web application",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "media",
+        "python",
+        "video"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/patterns",
+      "description": "Automated OWASP CRS and Bad Bot Detection for Nginx, Apache, Traefik and HaProxy",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "apache",
+        "bad-requests",
+        "bot-detection"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/pdf-ocr",
+      "description": "Converts scanned PDF documents to multiple formats using Optical Character Recognition",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "converter",
+        "docx",
+        "docx-generator"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proximity",
+      "description": "An immersive management layer for Proxmox based personal infrastructure.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "infrastructure",
+        "lxc",
+        "proxmox"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxmox-cluster-balancer",
+      "description": "Balance, scale, migrate your LXC fleet across your Proxmox nodes",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "autoscale",
+        "balancer",
+        "cluster"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxmox-lxc-autoscale",
+      "description": "Automatically scale LXC containers resources on Proxmox hosts",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "autoscaler",
+        "autoscaling",
+        "autoscaling-groups"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxmox-lxc-autoscale-ml",
+      "description": "Automatically scale the LXC containers resources on Proxmox hosts with AI",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "api",
+        "api-rest",
+        "automation"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxmox-vm-autoscale",
+      "description": "Automatically scale virtual machines resources on Proxmox hosts",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "autoscale",
+        "autoscaling",
+        "proxmox"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxxx",
+      "description": "Terminal cockpit for Proxmox VE & PBS — Rust TUI + CLI, single static binary, six-stage commit gate, no agent on the cluster.",
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "devops",
+        "homelab"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/proxymate",
+      "description": "macOS menu bar proxy with WAF, privacy, AI agent enforcement, and threat intelligence",
+      "language": "Swift",
+      "license": "MIT",
+      "topics": [
+        "macos",
+        "menubar",
+        "privacy"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/rainlogs",
+      "description": "Cloudflare log archiving for NIS2-compliant European businesses",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "topics": [
+        "archive",
+        "cloudflare",
+        "logpull-api"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/repos",
+      "description": "My repositories",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "automation",
+        "github-stars",
+        "github-stats"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/secure-proxy-manager",
+      "description": "Secure proxy solution with filtering, real-time monitoring and a modern web UI.",
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "content-filtering",
+        "dns-filtering",
+        "egress-filtering"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/silence",
+      "description": "Multi-level AI inference with semantic zoom: routes queries through deterministic, tiny-model and LLM tiers by complexity for cost-aware inference",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "ai-inference",
+        "cost-optimization",
+        "llm"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/silicondev",
+      "description": "Local LLM fine-tuning and chat for Apple Silicon",
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "agentic-ai",
+        "dataset",
+        "developer-tools"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/slopless",
+      "description": "Static analysis for AI-slop patterns. Regex, AST and type checks, auto-fix, SARIF output.",
+      "language": "TypeScript",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/space23",
+      "description": "Music-driven vertical shoot-'em-up that runs in your browser. Godot 4 + WebAssembly, deployed to GitHub Pages.",
+      "language": "GDScript",
+      "license": "MIT",
+      "topics": [
+        "audio-reactive",
+        "browser-game",
+        "godot"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/speedmate",
+      "description": "A lightweight, zero-configuration WordPress performance plugin",
+      "language": "PHP",
+      "license": "MIT",
+      "topics": [
+        "cache",
+        "caching",
+        "performance"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/synapseed",
+      "description": "Pure Rust Semantic AI Middleware",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "ai",
+        "code-intelligence",
+        "developer-tools"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/tanstack-compromise-checker",
+      "description": "Shell script to detect TanStack npm supply chain attack indicators (CVE-2026-45321 / GHSA-g7cv-rxg3-hmpx)",
+      "language": "Shell",
+      "license": "MIT",
+      "topics": [
+        "bash-script",
+        "compromise-detection",
+        "cve-2026-45321"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/txt2vst",
+      "description": "Generate VST3/AU instruments from natural language",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "generator",
+        "vst",
+        "vst3"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/UglyFeed",
+      "description": "Retrieve, aggregate, filter, evaluate, rewrite and serve RSS feeds using Large Language Models for fun, research and learning purposes",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "journalism",
+        "llm",
+        "news"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/uglyfeed-cdn",
+      "description": "🌍 UglyFeed RSS feeds",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "daily",
+        "feeds",
+        "news"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/vibe-check",
+      "description": "Anti-slop CI/CD gatekeeper (GitHub action)",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "anti-slop",
+        "ci",
+        "code-quality"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/wafcontrol",
+      "description": "Cloudflare WAF Settings Automation using GitHub Actions",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "cloudflare",
+        "cloudflare-api",
+        "cybersecurity"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/web-kick",
+      "description": "Automatic Bass Drum Kick Generator",
+      "language": "JavaScript",
+      "license": "MIT"
+    },
+    {
+      "repo": "fabriziosalmi/websites-monitor",
+      "description": "Websites monitoring via GitHub Actions/API (expiration, security, performances, privacy, SEO)",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "certificate-monitoring",
+        "content-security-policy",
+        "domain-expiration"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/webtek",
+      "description": "WebTeK: the worldwide streaming teknival ꩜ https://webtek.live",
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "topics": [
+        "dj",
+        "freetekno",
+        "live"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/wildbox",
+      "description": "An open-source security platform for the community. Unified SIEM, SOAR, WAF, and more in a single, self-hosted solution.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "cspm",
+        "devsecops",
+        "docker"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/You-Know-What-AI-Mean",
+      "description": "A practical guide to AI ethics and responsibility, built from a real-world incident — and from the body of work that came after.",
+      "language": "HTML",
+      "license": "CC0-1.0",
+      "topics": [
+        "ai",
+        "ai-ethics",
+        "ai-governance"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/zion",
+      "description": "High-performance TLS reverse proxy with built-in WAF, written in Rust.",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "edge",
+        "edge-computing",
+        "edge-gateway"
+      ]
+    },
+    {
+      "repo": "fabriziosalmi/zonecontrol",
+      "description": "Cloudflare Zones Settings Automation using GitHub Actions",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "automation",
+        "cloudflare",
+        "cloudflare-api"
+      ]
+    }
+  ]
+}

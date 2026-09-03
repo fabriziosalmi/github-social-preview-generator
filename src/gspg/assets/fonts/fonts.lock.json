@@ -1,0 +1,25 @@
+{
+  "comment": "Pinned upstream font archives. Verified by SHA-256 before anything is extracted.",
+  "sources": {
+    "Inter": {
+      "archive_sha256": "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e",
+      "faces": {
+        "extras/ttf/Inter-Regular.ttf": {
+          "as": "Inter-Regular.ttf",
+          "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82"
+        },
+        "extras/ttf/InterDisplay-SemiBold.ttf": {
+          "as": "InterDisplay-SemiBold.ttf",
+          "sha256": "0310d7a325896129730c6c8cf9a6e0f81ee258bedf77b1ff059b2a7b75f74e02"
+        }
+      },
+      "license": {
+        "as": "OFL-Inter.txt",
+        "member": "LICENSE.txt",
+        "name": "SIL Open Font License 1.1"
+      },
+      "url": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
+      "version": "4.1"
+    }
+  }
+}

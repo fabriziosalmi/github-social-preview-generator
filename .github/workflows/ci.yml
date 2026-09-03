@@ -1,0 +1,82 @@
+# Lint, test, and prove the committed previews still reproduce byte for byte.
+#
+# No secrets. No credentials of any kind: the default token is read-only and
+# nothing here writes to the repository or calls an authenticated API. Every
+# action is pinned to a commit SHA rather than a moving tag.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: test (python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install an SVG rasteriser
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+
+      - name: Report the toolchain
+        run: make doctor
+
+      - name: House style
+        run: make lint
+
+      - name: Tests
+        run: make test
+
+  reproducible:
+    name: previews reproduce
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Install an SVG rasteriser
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+
+      # The SVG is the artefact this project guarantees: identical input gives
+      # identical bytes on any machine, so its digest is what gates the branch.
+      # PNG bytes additionally depend on the rasteriser build, which is why the
+      # lock file records the backend rather than pretending they do not.
+      - name: Re-render and compare against previews.lock.json
+        run: make check
+
+      - name: Confirm every preview fits GitHub's upload limit
+        run: |
+          fail=0
+          for file in previews/png/*.png; do
+            size=$(stat -c%s "$file")
+            if [ "$size" -gt 1048576 ]; then
+              echo "::error file=$file::$size bytes, over GitHub's 1 MiB limit"
+              fail=1
+            fi
+          done
+          exit $fail

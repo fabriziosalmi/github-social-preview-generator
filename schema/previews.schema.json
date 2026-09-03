@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/fabriziosalmi/github-social-preview-generator/schema/previews.schema.json",
+  "title": "gspg preview manifest",
+  "description": "Which repositories get a generated social preview, and how each one looks.",
+  "type": "object",
+  "required": [
+    "version",
+    "repositories"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "const": 1
+    },
+    "defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Headline. Defaults to the repository name."
+        },
+        "description": {
+          "type": "string",
+          "description": "Sub-headline. Never truncated: the layout shrinks the type until the whole text fits. Kept across `gspg import`."
+        },
+        "language": {
+          "type": "string",
+          "description": "Shown in the gallery, not on the image."
+        },
+        "license": {
+          "type": "string",
+          "description": "SPDX identifier. Gallery only."
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "description": "Gallery only."
+        },
+        "pattern": {
+          "enum": [
+            "constellation",
+            "flowlines",
+            "halftone",
+            "lattice",
+            "orbits",
+            "precision-grid",
+            "ridgeline",
+            "strata",
+            "topography"
+          ],
+          "description": "Background field. Defaults to 'strata' for every repository, which is what makes the set look like one family."
+        },
+        "accent": {
+          "type": "string",
+          "description": "Hue name (amber, azure, crimson, cyan, emerald, indigo, lime, magenta, teal, violet), a hue in degrees, or a hex colour. Drives the spine and the paper tint."
+        },
+        "saturation": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 2,
+          "default": 1,
+          "description": "Scales chroma across the palette. 0 is monochrome."
+        },
+        "seed": {
+          "type": "string",
+          "description": "Overrides the seed. Change it to reroll the colour without renaming."
+        },
+        "skip": {
+          "type": "boolean",
+          "default": false,
+          "description": "Exclude from builds and audits."
+        }
+      },
+      "description": "Applied to every entry that does not set the field itself."
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "repo"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "repo": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._-]*$",
+            "description": "owner/name, exactly as it appears on GitHub."
+          },
+          "title": {
+            "type": "string",
+            "description": "Headline. Defaults to the repository name."
+          },
+          "description": {
+            "type": "string",
+            "description": "Sub-headline. Never truncated: the layout shrinks the type until the whole text fits. Kept across `gspg import`."
+          },
+          "language": {
+            "type": "string",
+            "description": "Shown in the gallery, not on the image."
+          },
+          "license": {
+            "type": "string",
+            "description": "SPDX identifier. Gallery only."
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8,
+            "description": "Gallery only."
+          },
+          "pattern": {
+            "enum": [
+              "constellation",
+              "flowlines",
+              "halftone",
+              "lattice",
+              "orbits",
+              "precision-grid",
+              "ridgeline",
+              "strata",
+              "topography"
+            ],
+            "description": "Background field. Defaults to 'strata' for every repository, which is what makes the set look like one family."
+          },
+          "accent": {
+            "type": "string",
+            "description": "Hue name (amber, azure, crimson, cyan, emerald, indigo, lime, magenta, teal, violet), a hue in degrees, or a hex colour. Drives the spine and the paper tint."
+          },
+          "saturation": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 2,
+            "default": 1,
+            "description": "Scales chroma across the palette. 0 is monochrome."
+          },
+          "seed": {
+            "type": "string",
+            "description": "Overrides the seed. Change it to reroll the colour without renaming."
+          },
+          "skip": {
+            "type": "boolean",
+            "default": false,
+            "description": "Exclude from builds and audits."
+          }
+        }
+      }
+    }
+  }
+}

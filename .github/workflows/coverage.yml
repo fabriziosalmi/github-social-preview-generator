@@ -1,0 +1,58 @@
+# Report which repositories still lack a custom social preview.
+#
+# This workflow needs no secrets, and that is the whole point: GitHub exposes
+# no API for social previews, so coverage is read from each repository's public
+# og:image tag exactly as a link unfurler would. The default token stays
+# read-only and is never used. Results go to the run summary and an artifact
+# rather than being committed, so the job needs no write access either.
+name: coverage
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      owner:
+        description: "Check every public repository of this account instead of the manifest"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: preview coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Audit
+        env:
+          OWNER: ${{ inputs.owner }}
+        run: |
+          mkdir -p build
+          if [ -n "$OWNER" ]; then
+            PYTHONPATH=src python -m gspg audit --discover "$OWNER" \
+              --markdown build/COVERAGE.md --json build/coverage.json
+          else
+            PYTHONPATH=src python -m gspg audit \
+              --markdown build/COVERAGE.md --json build/coverage.json
+          fi
+
+      - name: Publish the report to the run summary
+        if: always()
+        run: cat build/COVERAGE.md >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: coverage
+          path: build/
+          retention-days: 30
