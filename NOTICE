@@ -13,3 +13,5 @@ The derived data lives in src/gspg/assets/fonts/*.glyphs.json and is produced by
 tools/build_glyphpack.py from the archives pinned in src/gspg/assets/fonts/fonts.lock.json.
 It contains glyph outlines, advance widths and kerning pairs, and is covered by
 the OFL exactly as the fonts it comes from are.
+
+Images produced by this software are yours.
