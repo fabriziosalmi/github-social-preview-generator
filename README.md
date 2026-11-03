@@ -365,7 +365,7 @@ make fonts         # fetch and verify the pinned fonts, then rebuild the packs
 make clean
 ```
 
-Supported on Python 3.9 through 3.13. Rasterisers, in preference order: `resvg`,
+Supported on Python 3.10 through 3.13. Rasterisers, in preference order: `resvg`,
 `rsvg-convert`, `inkscape`, headless Chromium.
 
 ---
