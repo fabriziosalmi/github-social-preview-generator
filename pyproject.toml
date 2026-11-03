@@ -7,7 +7,7 @@ name = "github-social-preview-generator"
 version = "1.0.0"
 description = "Deterministic, offline social preview images for GitHub repositories"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [{ name = "Fabrizio Salmi" }]
 keywords = ["github", "social-preview", "opengraph", "svg", "generative", "offline"]
